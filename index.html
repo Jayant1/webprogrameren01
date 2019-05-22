@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>SU Web Development</title>
+  </head>
+  <body>
+    <header class="v-header container">
+      <div class="home-vid">
+        <!--Video voro de home page dat full screen width, autoplay is true zodat hij bij laden van de pagina automatish afspeelt
+        en loop is true zodat hij in een continu afspeelt-->
+        <video src="/videos/homepage.mp4" autoplay="true" loop="true"></video>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="diensten.html">Diensten</a></li>
+          <li><a href="over_ons.html">Over ons</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!--Header-overlay voor een blok element dat de screen van hoek tot hoek gaat dekken, dit is basically om de video op de achtergrnd te plaatsen.
+      Hij zal ene kleur hebben zodat de tekst erop makkelijk leesbaar is-->
+      <div class="header-overlay"></div>
+      <div class="text-content">
+        <div class="home-text">
+          <h1><span>SU</span> Web Development</h1>
+        </div>
+        <div class="home-button">
+          <a href="#portfolio">Bekijk portfolio</a>
+        </div>
+        <div class="home-small-text">
+          <p>
+            Betaalbare en op maat gesneden websites voor kleine, middelgrote en
+            enterprise niveau bedrijven
+          </p>
+        </div>
+      </div>
+    </header>
+    <div class="projects-heading"><h1 id="portfolio">Onze Portfolio</h1></div>
+    <div class="projects">
+      <div class="item">
+        <a href="https://www.kirpalani.com/" target="_blank">
+          <img src="images/projects/project1.jpg" alt="Project" />
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://www.amazon.com/" target="_blank">
+          <img src="images/projects/project2.jpg" alt="Project" />
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://www.telesur.sr/" target="_blank">
+          <img src="images/projects/project3.jpg" alt="Project" />
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://www.apple.com/" target="_blank">
+          <img src="images/projects/project4.jpg" alt="Project" />
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://www.nvebs.com/" target="_blank">
+          <img src="images/projects/project5.jpg" alt="Project" />
+        </a>
+      </div>
+    </div>
+
+    <div class="form">
+      <h1 id="offerte-heading">Offerte</h1>
+      <form action="#">
+        <label for="fname">Naam</label>
+        <input type="text" name="naam" placeholder="Voer uw achternaam in" />
+        <label for="lname">Voornaam</label>
+        <input type="text" name="voornaam" placeholder="Voer uw voornaam in" />
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Voer uw email in" />
+        <Label for="decs">Korte beschrijving van specificaties</Label>
+        <textarea name="Omschrijving" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Aanvraag opsturen" />
+      </form>
+    </div>
+    <footer>All rights reserved &copy 2019</footer>
+  </body>
+</html>
