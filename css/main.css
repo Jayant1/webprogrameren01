@@ -271,3 +271,24 @@ input[type="submit"]:hover {
 .diensten-icons {
   margin-top: 2rem;
   margin-bottom: 2rem; }
+
+.boxes {
+  width: 100%;
+  padding-top: 2rem; }
+
+.container {
+  display: flex;
+  margin-top: 2rem; }
+
+.box {
+  align-content: center;
+  text-align: center;
+  width: 33.33%; }
+
+.box:hover {
+  background-color: #555;
+  color: white;
+  transition: all 0.5s ease-in-out; }
+
+.box img {
+  width: 180px; }
